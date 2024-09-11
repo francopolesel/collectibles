@@ -21,8 +21,8 @@ const Contact = () => {
                 Franco Paul Polesel
               </h3>
               <p className="text-gray-600 mb-6 text-lg">
-                Creator of this Collectible. Feel free to connect, check out my
-                work, or drop me an email through the links below.
+                Creator of Collectible. Feel free to connect, check out my work,
+                or drop me an email through the links below.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a

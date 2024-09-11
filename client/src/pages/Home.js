@@ -16,7 +16,7 @@ const Home = () => {
       >
         <div className="bg-black bg-opacity-50 p-8 text-center rounded-lg">
           <h1 className="text-white text-4xl font-bold mb-4">
-            Welcome to Collectibles World
+            Welcome to Collectibles
           </h1>
           <p className="text-gray-300 text-lg mb-4">
             Explore our exclusive collection of rare and vintage items
