@@ -1,5 +1,5 @@
 import React from "react";
-import collectibles from "../collectibles.png";
+import collectibles from "../images/collectibles.png";
 
 const About = () => {
   return (

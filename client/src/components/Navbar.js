@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import collectibles from "../collectibles.png";
+import collectibles from "../images/collectibles.png";
 
 const Navbar = () => {
   return (

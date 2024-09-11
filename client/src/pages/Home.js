@@ -1,6 +1,10 @@
 import React from "react";
-import collectibles from "../collectibles.png";
+import collectibles from "../images/collectibles.png";
 import CollectibleCard from "../components/CollectibleCard";
+import ronaldoJersey from "../images/ronaldo-jersey.jpg";
+import monedaMalvinas from "../images/moneda-malvinas.jpg";
+import nikeTravis from "../images/nike-travis.jpg";
+import hondaCivic from "../images/honda-civic.jpg";
 
 const Home = () => {
   return (
@@ -32,24 +36,24 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {/* Example of Collectible Item */}
             <CollectibleCard
-              image="https://via.placeholder.com/150"
-              title="Rare Coin"
-              description="Vintage coin from 1800s"
+              image={ronaldoJersey}
+              title="Ronaldo Jersey"
+              description="Cristiano Ronaldo 07/08 Champions League Winner Jersey"
             />
             <CollectibleCard
-              image="https://via.placeholder.com/150"
-              title="Antique Toy"
-              description="Limited edition toy car"
+              image={monedaMalvinas}
+              title="Moneda Malvinas"
+              description="Limited edition Heroes de Malvinas Coin - 2007"
             />
             <CollectibleCard
-              image="https://via.placeholder.com/150"
-              title="Old Stamp"
-              description="Rare stamp from early 1900s"
+              image={nikeTravis}
+              title="Nike AF 1 Travis"
+              description="Rare Nike Air Force 1 Travis Scott Edition"
             />
             <CollectibleCard
-              image="https://via.placeholder.com/150"
-              title="Vintage Watch"
-              description="Classic wristwatch from 1950s"
+              image={hondaCivic}
+              title="First Honda Civic"
+              description="This is the first Honda Civic ever made"
             />
           </div>
         </div>
